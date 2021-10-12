@@ -1,66 +1,220 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
 *{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Roboto', sans-serif;
-    background-color: #EAC926;
-    color: black;
-    text-decoration: none;
-
+    box-sizing: border-box;
 }
 
-.cuerpo{
+/*HEADER*/
+
+header{
+    background-color: #EAC926;
+    width: 100vw;
+}
+
+div.top-header{
+    padding: 5%;
+}
+
+header div.logo{
+    padding: 10px;
+}
+header nav{
     font-size: 12px;
 }
 
-.titulares{
-    font-size: 24px;
-}
-.precios{
-    font-size: 18px;
-}
-.descuentos{
-    font-size: 16px;
-}
-.descripcion{
-    font-size: 16px;
+header ul li a{
+    text-decoration: none;
+    color: #000;
 }
 
-p.center{
-    text-align: center;
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+header .form .submit{
+    background-color: #FFF;
+    border: 1px solid #000;
+    color: #666;
+    width: 10%;
 }
 
-div{
-    background-color:#1259c3;
+header div.top-header p{
+    width: 100%;
     text-align: center;
-    width: 5%;
+    margin-top: 10px;
+}
+
+
+.logo {
+    width: 800px;
     margin: auto;
 }
+
+.form{
+    width: 20vw;
+    margin: auto;
+}
+
+.compra{
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.lista{
+    font-size: 14px;
+    line-height:22px;
+    text-align: left;
+    margin: 10px;
+    padding: 0%;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;    
+}
+
+/*BANNER*/
+
+section.banner img{
+    width: 100%;
+}
+
+/*BODY*/
+
+body{
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    
+}
+
+main section article{
+    background-color: #fff;
+}
+
+.imgProduct{
+    max-width: 20%;
+    margin: auto;
+    padding: 10px;
+}
+
+article div.main-article{
+    border-top: solid 1px #ebebeb ;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+}
+
 
 h3{
-    font-weight: bold;
-    text-align: center;
+    font-size: 24px;
 }
 
-article{
-    text-align: center;
-}
-
-Footer{
-    background-color: white;
-    text-align: center;
-}
-
-.iconos{
-    width: 2em;
-    margin-bottom: 10px;
+.imgProduct{
+    max-width: 20%;
     margin: auto;
-    color: #1259c3;
+    padding: 10px;
 }
 
-.margen{
-    margin-top: 30px;
-    margin-bottom: 30px;
+p{
+    font-size: 12px;
 }
-.margen2{
-    margin-top: 30px;
+
+.tarjeta {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
+
+article div.main-article{
+    border-top: solid 1px #ebebeb ;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount, 
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3, 
+.description{
+    color: #666;
+    padding-top: 10px;
+}
+
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+main section article{
+    background-color: #fff;
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+
+/*FOOTER*/
+
+footer{
+    margin: 10px;
+    padding: 10px;
+}
+
+.footerUl{
+    padding: 10px;
+    margin: 10px;
+}
+
+.footerImg{
+    width: 2em;
+    color: #1259c3;
+    margin: auto;
+}
+
+.footerText{
+    text-align: center;
+    padding: 5px;
+}
+
+.footerCopy{
+    text-align: left;
+    font-size: 10px;
+}
+
+
+
+
+
