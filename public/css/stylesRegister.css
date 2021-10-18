@@ -1,54 +1,40 @@
-*{    
+*{  
     padding: 0px;
     margin:0px;
     box-sizing: border-box;
 }
+
 body{
     font-family: "Roboto", sans-serif;
     background-color: #ebebeb;
 }
+
 p {
     font-size: 12px;
     text-align: center;
 }
+
 h3 {
     font-size: 24px;
 }
-header div .logo{
-    width: 50%;
+
+/*BODY*/
+
+.logoMercado{
+    width: 45%;
     padding: 10px;
     display: flex;
 }
-header div .buscador{
+.barraBuscador{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 45%;
 }
-div.top-header{
+div.headerArriba{
     display: flex;
     flex-wrap: wrap;
 }
-.precio {
-    font-size: 18px;
-    text-align: left;
-    margin-top: 5px;
-    display: inline-block;
-    width: 40%;
-}
-.descuento {
-    font-size: 16px;
-    text-align: left;
-    color: #39b54a;
-    margin-top: 5px;
-    display: inline-block;
-    width: 40%;
-}
-.descripcion {
-    font-size: 16px;
-    text-align: left;
-    margin-top: 5px;
-    display: none;
-}
+
 header {
     background-color: #eac926;
 }
@@ -60,6 +46,7 @@ header nav {
     margin-top: 10px;
     display: none;
 }
+
 header ul {
     margin-top: 10px;
 }
@@ -85,7 +72,70 @@ main img {
     margin: 10px 0px 20px 0px;
     padding: 10px;
 }
-.icons-footer {
+
+
+.register{
+    padding: 20px;
+    margin-top:20px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+    margin: 2% 10% 2% 10%;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+.forma{
+    margin-bottom: 20px;
+    align-items: center;
+}
+.forma input{    
+    width: 100%;    
+    margin-top: 5px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.opciones{
+    background-color: white;
+    width: 100%;    
+    margin-top: 5px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+}
+
+.botonEnviar{
+    background-color: #1259c3;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition-property:all;
+} 
+
+.botonBorrar{
+    background-color: #1259c3;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition-property:all;
+} 
+
+
+/*FOOTER*/
+
+.imgFooter {
     color: #1259c3;
     text-align: center;
     font-size: 2em;
@@ -93,6 +143,7 @@ main img {
     transition-property: color;
     transition-duration: 2s;
 }
+
 footer p {
     text-align: center;
     padding: 10px;
@@ -108,25 +159,10 @@ footer {
 .copyright{
     text-align: left;
 }
-main section {
-    width: 90%;
-    margin: auto;
-}
-main section article {
-    margin-top: 10px;
-}
-.contenedor {
-    border-top: 1px solid #ebebeb;
-    background-color: #fff;
-    padding: 15px;
-    position: relative;
-}
 
-.fa-truck {
-    margin: 0px;
-}
-@media (min-width: 361px){
-  
+/*MEDIA QUERIES*/
+
+@media (min-width: 481px){   
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
@@ -142,31 +178,30 @@ main section article {
     main section div.productos article{
         width: 45%;
     }
-    div.top-header{
+    div.headerArriba{
         flex-wrap: nowrap;
         justify-content: space-between;
         }
-   
-    .top-header{
+    .headerArriba{
         align-items: center;
     }
-    .comprar{
+    .frase{
         width: 30%;
     }
-    .logo{
+    .logoMercado{
         width: 30%;
     }
-    .buscador{
+    .barraBuscador{
         width: 30%;
     }
-    .nav-bar{
+    .menu{
         display: flex;
         justify-content: space-between;
     }
-    .nav-bar ul{
+    .menu ul{
         display: flex;
     }
-    .nav-bar li{
+    .menu li{
         margin: 0px 5px;
     }
     .burger-menu{
@@ -174,21 +209,6 @@ main section article {
     }
 }
 
-main section article i {
-    display: block;
-    font-size: 16px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid #39b54a;
-    background-color: #FFF;
-    border-radius: 50%;
-    position: absolute;
-    right: 20px;
-    top: -15px;
-    color: #39b54a;
-    transition-property: all;
-} 
 
 @media (min-width: 769px){
     main section div.productos article{
@@ -201,21 +221,4 @@ main section article i {
 
 }
 
-@media(min-width:1280px){
-    .footer-text{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 33%;
-        justify-content: space-around;
-    }
-    .icons-footer{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-    }
-    .footer{
-        display: flex;
-    }
-}
+
