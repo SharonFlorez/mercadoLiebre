@@ -31,9 +31,6 @@ h3 {
     width: 50%;
 }
 
-.frase{
-    text-align: center;
-}
 
 div.headerArriba{
     display: flex;
@@ -133,6 +130,13 @@ main section article i {
     
 } 
 
+main section article:hover i{
+    transform: rotateZ(270deg);
+}
+main article:hover .descripcion {
+    display:block;
+}
+
 /*FOOTER*/
 
 .imgFooter {
@@ -140,8 +144,10 @@ main section article i {
     text-align: center;
     font-size: 2em;
     margin-bottom: 10px;
-    transition-property: color;
-    transition-duration: 2s;
+    transition: color 100ms;
+}
+.imgFooter:hover{
+    color: #39b54a;
 }
 
 footer p {
@@ -159,6 +165,8 @@ footer {
 .copyright{
     text-align: left;
 }
+
+
 
 /*MEDIA QUERIES*/
 
@@ -213,6 +221,10 @@ footer {
 
 
 @media (min-width: 769px){
+    .buscador{
+        font-size: 130%;
+        
+    }
     
     .frase{
         width: 30%;
@@ -230,6 +242,17 @@ footer {
     .descuento{
         width: 40%;
         margin-left: 15px;
+    }
+    
+    .display{
+        display: flex;
+    }
+    
+    .textoFooter{    
+        align-items: center;
+        flex-wrap: wrap;
+        width: 33%;
+        justify-content: space-around;
     }
 
 }
