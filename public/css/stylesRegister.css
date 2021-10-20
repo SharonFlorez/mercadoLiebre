@@ -1,257 +1,243 @@
-*{  
-    padding: 0px;
-    margin:0px;
-    box-sizing: border-box;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: "Roboto", sans-serif;
-    background-color: #ebebeb;
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
 }
 
 p {
-    font-size: 12px;
-    text-align: center;
+  font-size: 12px;
+  text-align: center;
 }
 
 h3 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 /*BODY*/
 
-.logoMercado{
-    width: 45%;
-    padding: 10px;
-    display: flex;
+.logoMercado {
+  width: 45%;
+  padding: 10px;
+  display: flex;
 }
-.barraBuscador{
-    display: flex;
-    align-items: center;
-    width: 45%;
+.barraBuscador {
+  display: flex;
+  align-items: center;
+  width: 45%;
 }
-div.headerArriba{
-    display: flex;
-    flex-wrap: wrap;
+div.headerArriba {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header {
-    background-color: #eac926;
+  background-color: #eac926;
 }
 header p {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 header nav {
-    font-size: 12px;
-    margin-top: 10px;
-    display: none;
+  font-size: 12px;
+  margin-top: 10px;
+  display: none;
 }
 
 header ul {
-    margin-top: 10px;
+  margin-top: 10px;
 }
-  
+
 header ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 header ul li a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 main img {
-    width: 100%;
+  width: 100%;
 }
 .burger-menu {
-    text-align: center;
+  text-align: center;
 }
 .burger-menu i {
-    background-color: #1259c3;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 20px;
-    margin: 10px 0px 20px 0px;
-    padding: 10px;
+  background-color: #1259c3;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
 }
 
-
-.register{
-    padding: 20px;
-    margin-top:20px;
-    background-color: #ebebeb;
-    border-radius: 5px;
-    margin: 2% 10% 2% 10%;
-    display: flex;
-    flex-direction: column;
-} 
-
-
-.forma{
-    margin-bottom: 20px;
-    align-items: center;
-}
-.forma input{    
-    width: 100%;    
-    margin-top: 5px;
-    padding: 8px 5px;
-    border-radius: 5px;
-    border: 1px solid transparent;
+.register {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #ebebeb;
+  border-radius: 5px;
+  margin: 2% 10% 2% 10%;
+  display: flex;
+  flex-direction: column;
 }
 
-.opciones{
-    background-color: white;
-    width: 100%;    
-    margin-top: 5px;
-    padding: 8px 5px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-
+.forma {
+  margin-bottom: 20px;
+  align-items: center;
+}
+.forma input {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
 }
 
-.botonEnviar{
-    background-color: #1259c3;
-    color: white;
-    text-decoration: none;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    padding: 8px 5px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    transition-property:all;
-} 
+.opciones {
+  background-color: white;
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
 
-.botonBorrar{
-    background-color: #1259c3;
-    color: white;
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 5px;
-    padding: 8px 5px;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    transition-property:all;
-} 
+.botonEnviar {
+  background-color: #1259c3;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition-property: all;
+}
 
+.botonBorrar {
+  background-color: #1259c3;
+  color: white;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 8px 5px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition-property: all;
+}
 
 /*FOOTER*/
 
 .imgFooter {
-    color: #1259c3;
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 10px;
-    transition: color 100ms;
-}
-.imgFooter:hover{
-    color: #39b54a;
+  color: #1259c3;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  transition: color 100ms;
 }
 
 footer p {
-    text-align: center;
-    padding: 10px;
+  text-align: center;
+  padding: 10px;
 }
 footer h4 {
-    text-align: center;
-    font-weight: bold;
+  text-align: center;
+  font-weight: bold;
 }
 footer {
-    background-color: #fff;
-    margin-top: 20px;
+  background-color: #fff;
+  margin-top: 20px;
 }
-.copyright{
-    text-align: left;
+.copyright {
+  text-align: left;
 }
-
-
-
 
 /*MEDIA QUERIES*/
 
-@media (min-width: 481px){   
-    main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    header nav{
-        display: block;
-    }
-    main section div.productos{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    main section div.productos article{
-        width: 45%;
-    }
-    div.headerArriba{
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        }
-    .headerArriba{
-        align-items: center;
-    }
-    .frase{
-        width: 30%;
-    }
-    .logoMercado{
-        width: 30%;
-    }
-    .barraBuscador{
-        width: 30%;
-    }
-    .menu{
-        display: flex;
-        justify-content: space-between;
-    }
-    .menu ul{
-        display: flex;
-    }
-    .menu li{
-        margin: 0px 5px;
-    }
-    .burger-menu{
-        display: none;
-    }
+@media (min-width: 481px) {
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  header nav {
+    display: block;
+  }
+  main section div.productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main section div.productos article {
+    width: 45%;
+  }
+  div.headerArriba {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .headerArriba {
+    align-items: center;
+  }
+  .frase {
+    width: 30%;
+  }
+  .logoMercado {
+    width: 30%;
+  }
+  .barraBuscador {
+    width: 30%;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu ul {
+    display: flex;
+  }
+  .menu li {
+    margin: 0px 5px;
+  }
+  .burger-menu {
+    display: none;
+  }
 }
 
+@media (min-width: 769px) {
+  .buscador {
+    font-size: 130%;
+  }
 
+  .frase {
+    width: 30%;
+    text-align: center;
+    font-size: 16px;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  main section div.productos article {
+    width: 23%;
+  }
+  .descuento {
+    width: 40%;
+    margin-left: 15px;
+  }
 
-@media (min-width: 769px){
-    .buscador{
-        font-size: 130%;
-        
-    }
-    
-    .frase{
-        width: 30%;
-        text-align: center;
-        font-size: 16px;
-    }    
-    .menu{
-        display: flex;
-        justify-content: space-between;
-        font-size: 16px;
-    }
-    main section div.productos article{
-        width: 23%;
-    }
-    .descuento{
-        width: 40%;
-        margin-left: 15px;
-    }
-    
-    .display{
-        display: flex;
-    }
-    
-    .textoFooter{    
-        align-items: center;
-        flex-wrap: wrap;
-        width: 33%;
-        justify-content: space-around;
-    }
+  .display {
+    display: flex;
+  }
 
+  .textoFooter {
+    align-items: center;
+    flex-wrap: wrap;
+    width: 33%;
+    justify-content: space-around;
+  }
+  .imgFooter:hover {
+    color: #39b54a;
+  }
 }
-
-
-
